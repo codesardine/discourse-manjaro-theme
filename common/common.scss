@@ -527,6 +527,17 @@ blockquote {
     background: #f9fbe7;
 }
 
+button#create-topic {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  z-index: 9999;
+  background: #17e0b2;
+  border-color: #17e0b2;
+  color: var(--tertiary-hover);
+  box-shadow: rgba(99,99,99,.2) 0px 2px 8px 0px;
+}
+
 img[alt*="poop"],
 img[alt*="clown"],
 img[alt*="fist"],
