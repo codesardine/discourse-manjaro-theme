@@ -499,8 +499,8 @@ blockquote {
 }
 
 .topic-list-body .unseen-topic .badge-notification.new-topic:before,
-.current-user .badge-notification.with-icon {
-    background-color: #e91e63 !important;
+.current-user .badge-notification {
+  background-color: #e91e63 !important;
 }
 
 .user-main .about.collapsed-info .details,
