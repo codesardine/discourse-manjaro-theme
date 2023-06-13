@@ -438,10 +438,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 .title-wrapper .category-name:hover,
 .topic-list-data .raw-topic-link:hover,
 .topic-list-data .discourse-tag:hover,
-.footer-section-link:hover {
+.footer-section-link:hover,
+.footer-links .small-link:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
-    }
+}
 
 @media only screen and (min-width: 1024px) {
   .d-header {
