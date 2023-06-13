@@ -415,10 +415,20 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
   #search-button:hover, #search-button:focus,
   .btn-sidebar-toggle:hover, .btn-sidebar-toggle:focus {
-        background: transparent !important;
-        
+        background: transparent !important;        
         svg {
             color: white !important;
+        }
+        
+    }
+}
+
+.dark-theme .d-header {
+  #search-button, #search-button,
+  .btn-sidebar-toggle, .btn-sidebar-toggle {
+        background: transparent !important;        
+        svg {
+            color: #b0bec5 !important;
         }
         
     }
