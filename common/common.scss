@@ -616,5 +616,6 @@ button#create-topic {
 .d-icon-fab-twitter,
 .d-icon-fab-youtube,
 .d-icon-fab-twitter {
+  transition: all linear .15s;
 	filter: drop-shadow(0.10rem 0.10rem 0.1rem rgba(0, 0, 0, 0.5));
 }
