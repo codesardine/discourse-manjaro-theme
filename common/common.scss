@@ -427,7 +427,8 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 .title-wrapper a:hover,
 .title-wrapper .category-name:hover,
 .topic-list-data .raw-topic-link:hover,
-.topic-list-data .discourse-tag:hover {
+.topic-list-data .discourse-tag:hover,
+.footer-section-link:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
     }
@@ -562,4 +563,21 @@ button#create-topic {
   .instructions, .dark-color-scheme {
       display: none;
   }
+}
+
+.d-icon-fab-gitlab {
+  color: #ffab40;
+}
+
+.d-icon-fab-youtube {
+  color: #ff5252;
+}
+
+.d-icon-fab-twitter {
+  color: #448aff;
+}
+
+.social-link .d-icon:hover,
+.d-header button {
+  transform: scale(1.2);
 }
