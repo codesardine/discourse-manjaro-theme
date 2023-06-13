@@ -461,14 +461,16 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 .light-theme .custom-footer-content {
     background-image: url($footer-bg);
+}
 
-    .hljs {
-      background: #f9fbe7;
-    }
-  
-    blockquote {
-      background: #e8e8d5;
-    }
+.light-theme {
+  .hljs {
+    background: #f9fbe7;
+  }
+
+  blockquote {
+    background: #e8e8d5;
+  }
 }
 
 .light-theme .search-banner {
