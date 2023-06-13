@@ -450,6 +450,14 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 .light-theme .custom-footer-content {
     background-image: url($footer-bg);
+
+    .hljs {
+      background: #f9fbe7;
+    }
+  
+    blockquote {
+      background: #e8e8d5;
+    }
 }
 
 .search-banner {
@@ -513,28 +521,22 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     background: transparent;
 }
 
-.pref-email .email-dropdown .btn:hover {
-  background: var(--tertiary-hover) !important;
+.pref-email { 
+    .email-dropdown .btn:hover {
+      background: var(--tertiary-hover) !important;
+    }
+  .email-dropdown .btn *, .email-dropdown .btn:hover * {
+      color: var(--secondary) !important;
+    }
 }
 
-.pref-email .email-dropdown .btn *, .pref-email .email-dropdown .btn:hover * {
-  color: var(--secondary) !important;
-}
-
-.user-menu li button:hover {
+.user-menu {
+  li button:hover {
     background-color: var(--d-hover) !important;
-}
-
-.user-menu li button:hover svg {
+  }
+  li button:hover svg {
     color: var(--primary-medium) !important;
-}
-
-.light-theme .hljs {
-    background: #f9fbe7;
-}
-
-.light-theme blockquote {
-    background: #e8e8d5;
+  }
 }
 
 img[alt*="poop"],
