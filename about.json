@@ -9,10 +9,25 @@
   "maximum_discourse_version": null,
   "assets": {
     "footer-bg": "assets/footer-bg.webp",
+    "footer-bg-dark": "assets/footer-bg-dark.webp",
     "jaro": "assets/jaro.webp",
     "top-bar": "assets/top-bar.webp"
   },
   "color_schemes": {
+    "Dark": {
+      "primary": "e0e0e0",
+      "secondary": "2d2d2d",
+      "tertiary": "4f8a7c",
+      "quaternary": "e45735",
+      "header_background": "202020",
+      "header_primary": "e0e0e0",
+      "highlight": "b2b235",
+      "danger": "c80001",
+      "success": "009900",
+      "love": "fa6c8d",
+      "selected": "24240b",
+      "hover": "24240b"
+    },
     "Light": {
       "primary": "454545",
       "secondary": "ffffff",

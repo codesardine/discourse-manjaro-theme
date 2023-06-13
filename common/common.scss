@@ -424,7 +424,10 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     }
 }
 
-.title-wrapper a:hover, .title-wrapper .category-name:hover {
+.title-wrapper a:hover,
+.title-wrapper .category-name:hover,
+.topic-list-data .raw-topic-link:hover,
+.topic-list-data .discourse-tag:hover {
         text-decoration: underline;
         text-underline-offset: 2px;
     }
@@ -436,10 +439,17 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 .custom-footer-content {
-    background-image: url($footer-bg);
     background-position: top;
     background-repeat: repeat-x;
     height: 166px;
+}
+
+.dark-theme .custom-footer-content {
+    background-image: url($footer-bg-dark);
+}
+
+.light-theme .custom-footer-content {
+    background-image: url($footer-bg);
 }
 
 .search-banner {
@@ -469,7 +479,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     .custom-search-banner-wrap h1, .custom-search-banner-wrap p {
         text-transform: uppercase;
         font-weight: bold;
-        color: var(--tertiary-hover);
+        color: #2e7d32;
     }
 }
 
@@ -486,21 +496,16 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
     }
 }
 
-blockquote {
-    background: #e8e8d5;
-}
-
 .svg-icon.solved {
     color:#18e2b3;
 }
 
-.top-tabs .badge-notification {
-    background-color: #e91e63 !important;
-}
-
+.top-tabs .badge-notification, 
 .topic-list-body .unseen-topic .badge-notification.new-topic:before,
-.current-user .badge-notification {
-  background-color: #e91e63 !important;
+.current-user .badge-notification,
+.badge-notification.unread-posts {
+    background-color: #ec407a !important;
+    font-weight: bold;
 }
 
 .user-main .about.collapsed-info .details,
@@ -524,19 +529,12 @@ blockquote {
     color: var(--primary-medium) !important;
 }
 
-.hljs {
+.light-theme .hljs {
     background: #f9fbe7;
 }
 
-button#create-topic {
-  position: fixed;
-  bottom: 2em;
-  right: 2em;
-  z-index: 9999;
-  background: #17e0b2;
-  border-color: #17e0b2;
-  color: var(--tertiary-hover);
-  box-shadow: rgba(99,99,99,.2) 0px 2px 8px 0px;
+.light-theme blockquote {
+    background: #e8e8d5;
 }
 
 img[alt*="poop"],
@@ -544,4 +542,16 @@ img[alt*="clown"],
 img[alt*="fist"],
 img[alt*="facepunch"] {
     display: none !important;
+}
+
+button#create-topic {
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    z-index: 9999;
+    background: linear-gradient(128deg, rgba(24,226,179,1) 60%, rgba(0,212,255,1) 100%);
+    border-color: #17e0b2;
+    color: #2e7d32;
+    box-shadow: rgba(99,99,99,.2) 0px 2px 8px 0px;
+    font-weight: bold;
 }
