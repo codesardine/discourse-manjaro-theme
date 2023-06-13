@@ -557,3 +557,9 @@ button#create-topic {
     box-shadow: rgba(99,99,99,.2) 0px 2px 8px 0px;
     font-weight: bold;
 }
+
+.user-preferences .control-group.color-scheme {
+  .instructions, .dark-color-scheme {
+      display: none;
+  }
+}
