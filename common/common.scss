@@ -646,3 +646,7 @@ button#create-topic {
 .dark-theme .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
   color: #b0bec5;
 }
+
+.light-theme .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
+  color: var(--primary-medium);
+}
