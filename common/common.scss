@@ -541,6 +541,14 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   color: #ec407a !important;
 }
 
+.topic-list .topic-list-item-separator .topic-list-data {
+  border-top: 1px solid #ec407a;
+}
+
+.topic-list .topic-list-item-separator .topic-list-data span {
+  color: #ec407a;
+}
+
 .user-main .about.collapsed-info .details,
 .user-content {
     background: transparent;
