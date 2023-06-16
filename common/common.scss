@@ -673,6 +673,10 @@ button#create-topic {
   border: none;
 }
 
-.category-boxes-with-topics {
-  gap: 1.5em !important;
+.list-area {
+  .category-boxes-with-topics,
+  .category-boxes {
+    gap: 1.5em !important;
+    grid-gap: 1.5em !important;
+  }
 }
