@@ -454,6 +454,10 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
       margin-right: 0;
     }
 
+    .navigation-controls > :not(:first-child) {
+      margin-left: 0.5em;
+    }
+
     .category-breadcrumb {
       margin: 0;
     }
