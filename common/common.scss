@@ -448,6 +448,24 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   .d-header {
       background-size: contain;
   }
+
+  .navigation-container {
+    .navigation-controls > :not(:last-child) {
+      margin-right: 0;
+    }
+
+    .category-breadcrumb {
+      margin: 0;
+    }
+
+    #navigation-bar {
+      margin-bottom: 0;
+    }
+
+    .navigation-controls {
+      margin-bottom: 0;
+    }
+  }
 }
 
 .custom-footer-content {
@@ -653,4 +671,8 @@ button#create-topic {
 
 #quick-access-all-notifications .panel-body-bottom .btn {
   border: none;
+}
+
+.category-boxes-with-topics {
+  gap: 1.5em !important;
 }
