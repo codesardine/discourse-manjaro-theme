@@ -1,4 +1,11 @@
-.dark {    
+.dark {
+
+    .user-preferences .control-group.color-scheme {
+        .instructions, .dark-color-scheme {
+            display: none;
+        }
+      }
+    
     .d-header {
     #search-button, #search-button,
     .btn-sidebar-toggle, .btn-sidebar-toggle {
@@ -7,6 +14,10 @@
               color: #b0bec5 !important;
           }          
       }
+    }
+
+    .custom-footer-content {
+        background-image: url($footer-bg-dark);
     }
 
     .search-banner {
