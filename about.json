@@ -9,7 +9,6 @@
   "maximum_discourse_version": null,
   "assets": {
     "footer-bg": "assets/footer-bg.webp",
-    "footer-bg-dark": "assets/footer-bg-dark.webp",
     "jaro": "assets/jaro.webp",
     "top-bar": "assets/top-bar.webp"
   },
