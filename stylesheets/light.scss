@@ -1,0 +1,21 @@
+.light {
+    .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
+    color: var(--primary-medium);
+  }
+
+   .custom-footer-content {
+    background-image: url($footer-bg);
+    }
+
+    .hljs {
+        background: #f9fbe7;
+    }
+
+    blockquote {
+        background: #e8e8d5;
+    }
+
+    .search-banner {
+        background: linear-gradient(128deg, rgba(24,226,179,1) 70%, rgba(0,212,255,1) 100%);
+    }
+}

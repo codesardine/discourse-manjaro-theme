@@ -1,0 +1,35 @@
+.dark {
+
+    .user-preferences .control-group.color-scheme {
+        .instructions, .dark-color-scheme {
+            display: none;
+        }
+      }
+    
+    .d-header {
+    #search-button, #search-button,
+    .btn-sidebar-toggle, .btn-sidebar-toggle {
+          background: transparent !important;        
+          svg {
+              color: #b0bec5 !important;
+          }          
+      }
+    }
+
+    .custom-footer-content {
+        background-image: url($footer-bg-dark);
+    }
+
+    .search-banner {
+        background: linear-gradient(128deg, rgb(57, 191, 160) 70%, rgb(42, 171, 198) 100%);
+    }
+
+    button#create-topic {
+        color: #263238;
+    }
+
+    .sidebar-footer-actions-keyboard-shortcuts .d-icon,
+    .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
+    color: #b0bec5;
+    }
+  }
