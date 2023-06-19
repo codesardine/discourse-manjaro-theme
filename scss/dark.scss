@@ -37,12 +37,12 @@
     color: #b0bec5;
     }
 
-    #main-outlet .container.list-container {
-        box-shadow: 0 8px 40px 0 rgba(103,151,255,.1),0 12px 40px 0 rgba(133,255,103,.1) !important;
-    }
-
   .quote-button button:hover,
   .quote-button button:hover > svg {
     color: var(--primary) !important;
   }
+}
+
+.dark.navigation-topics #main-outlet .container.list-container {
+    box-shadow: 0 8px 40px 0 rgba(103,151,255,.1),0 12px 40px 0 rgba(133,255,103,.1) !important;
 }
