@@ -44,3 +44,8 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   transform: rotate(74deg);
   transform-origin: 0 100%;
 }
+
+button#create-topic {
+  bottom: 2em;
+  right: 2em;
+}
