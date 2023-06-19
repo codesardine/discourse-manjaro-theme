@@ -229,8 +229,9 @@
 
   .sidebar-wrapper,
   .custom-search-banner-wrap,
-  .navigation-topics .container.list-container {
-    margin-top: 1.5em;
+  .navigation-topics .container.list-container,
+  body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
+    margin-top: 1.5em !important;
   }
 
   .sidebar-wrapper {
