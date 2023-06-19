@@ -7,10 +7,10 @@
       color: white !important;
       }
 
-    .svg-icon:hover, .svg-icon:focus {
-          background: transparent !important;        
-              color: white !important;          
-      }
+    button.icon:hover > svg,
+    button.btn-icon:hover > svg {
+       color: white !important;          
+    }
 
     button:hover {
       border-radius: 5px;
@@ -241,4 +241,8 @@
 
   .sidebar-footer-container:before {
     display: none !important;
+  }
+
+  .navigation-categories .navigation-container, .categories-list .navigation-container {
+    border-bottom: none;
   }
