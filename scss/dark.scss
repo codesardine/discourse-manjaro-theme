@@ -7,13 +7,10 @@
       }
     
     .d-header {
-    #search-button, #search-button,
-    .btn-sidebar-toggle, .btn-sidebar-toggle {
-          background: transparent !important;        
-          svg {
-              color: #b0bec5 !important;
-          }          
-      }
+        .svg-icon {
+            background: transparent !important;        
+                color: #b0bec5 !important;
+        }
     }
 
     .custom-footer-content {

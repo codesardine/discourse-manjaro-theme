@@ -6,14 +6,10 @@
     .title-wrapper a, .title-wrapper .category-name {
       color: white !important;
       }
-  
-    #search-button:hover, #search-button:focus,
-    .btn-sidebar-toggle:hover, .btn-sidebar-toggle:focus {
+
+    .svg-icon:hover, .svg-icon:focus {
           background: transparent !important;        
-          svg {
-              color: white !important;
-          }
-          
+              color: white !important;          
       }
   }
   
