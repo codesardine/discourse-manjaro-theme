@@ -1,5 +1,4 @@
 .dark {
-
     .user-preferences .control-group.color-scheme {
         .instructions, .dark-color-scheme {
             display: none;
@@ -41,9 +40,9 @@
     .navigation-topics .container.list-container {
         box-shadow: 0 8px 40px 0 rgba(103,151,255,.1),0 12px 40px 0 rgba(133,255,103,.1) !important;
     }
-  }
 
   .quote-button button:hover,
   .quote-button button:hover > svg {
     color: var(--primary) !important;
   }
+}
