@@ -11,6 +11,10 @@
           background: transparent !important;        
               color: white !important;          
       }
+
+    button:hover {
+      border-radius: 5px;
+    }
   }
   
   .title-wrapper a:hover,

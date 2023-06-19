@@ -18,4 +18,12 @@
     .search-banner {
         background: linear-gradient(128deg, rgba(24,226,179,1) 70%, rgba(0,212,255,1) 100%);
     }
+
+    .d-header {
+        button.icon:hover,
+        button.btn-icon:hover {
+            border-radius: 5px;
+            background-color: #00bfa5 !important;
+          }
+    }
 }
