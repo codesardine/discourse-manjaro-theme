@@ -110,14 +110,13 @@
   
   .top-tabs .badge-notification, 
   .topic-list-body .unseen-topic .badge-notification.new-topic:before,
-  .current-user .badge-notification,
   .badge-notification.unread-posts {
-      background-color: #f06292 !important;
+      background-color: var(--notification-color) !important;
       font-weight: bold;
   }
   
   .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-suffix {
-    color: #f06292 !important;
+    color: var(--notification-color)  !important;
   }
   
    
