@@ -110,7 +110,8 @@
   
   .top-tabs .badge-notification, 
   .topic-list-body .unseen-topic .badge-notification.new-topic:before,
-  .badge-notification.unread-posts {
+  .badge-notification.unread-posts,
+  .badge-notification.new-pms {
       background-color: var(--notification-color) !important;
       font-weight: bold;
   }
