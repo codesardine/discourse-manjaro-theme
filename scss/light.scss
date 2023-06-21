@@ -26,4 +26,10 @@
             background-color: #00bfa5 !important;
           }
     }
+
+    #main-outlet-wrapper .sidebar-wrapper,
+    body:not(.navigation-categories):not(.navigation-topics) #main-outlet,
+    .navigation-topics .container.list-container {
+        box-shadow: 0 8px 60px 0 rgba(2, 2, 2, 0.21),0 12px 90px 0 rgba(133,255,103,.1);
+      }
 }
