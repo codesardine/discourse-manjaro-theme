@@ -257,3 +257,8 @@
   .navigation-categories .list-container, .categories-list .list-container {
     padding-top: 1em;
   }
+
+  .sidebar-section-link-wrapper .sidebar-section-link.active,
+  .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
+    color: inherit;
+  }
