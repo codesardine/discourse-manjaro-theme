@@ -210,6 +210,10 @@
   .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
     transform: scale(1.2);
   }
+
+  .sidebar-footer-wrapper .sidebar-footer-container {
+    background: var(--primary-low);
+  }
   
   .sidebar-footer-actions-keyboard-shortcuts .d-icon,
   .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
@@ -239,7 +243,8 @@
   .sidebar-wrapper {
     border-radius: var(--mint-border-radius);
     height: calc(auto - (var(--header-offset) + 80px));
-    top: calc(var(--header-offset) + 22px);   
+    top: calc(var(--header-offset) + 22px); 
+    border-top: 8px solid var(--tertiary);  
   }
 
   .sidebar-footer-container:before {
