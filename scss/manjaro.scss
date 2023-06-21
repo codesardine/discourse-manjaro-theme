@@ -108,7 +108,7 @@
       color:#18e2b3;
   }
   
-  .badge-notification:not(.new-reviewables), 
+  .badge-notification:not(.new-reviewables):not(.new-topic), 
   .topic-list-body .unseen-topic .badge-notification.new-topic:before,
   .badge-notification.unread-posts,
   .badge-notification.new-pms,
