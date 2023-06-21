@@ -236,8 +236,8 @@
 
   .sidebar-wrapper {
     border-radius: var(--mint-border-radius);
-    height: calc(100vh - (var(--header-offset) + 80px));
-    top: calc(var(--header-offset) + 23px);   
+    height: calc(auto - (var(--header-offset) + 80px));
+    top: calc(var(--header-offset) + 22px);   
   }
 
   .sidebar-footer-container:before {
