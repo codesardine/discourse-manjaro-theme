@@ -121,6 +121,11 @@
   .badge-notification.clicks {
     color: var(--secondary);
   }
+
+  .topic-map .avatars span.post-count {
+    background-color: var(--notification-color) !important;
+    opacity: 1 !important;
+  }
   
   .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-suffix {
     color: var(--notification-color)  !important;
