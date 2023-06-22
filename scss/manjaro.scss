@@ -117,6 +117,10 @@
       font-weight: bold;
       border: none !important;
   }
+
+  .badge-notification.clicks {
+    color: var(--secondary);
+  }
   
   .sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-suffix {
     color: var(--notification-color)  !important;
