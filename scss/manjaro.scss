@@ -13,7 +13,8 @@
        color: white !important;          
     }
 
-    button:hover {
+    button:hover,
+    .icon.btn-flat:hover {
       border-radius: 5px;
     }
   }
