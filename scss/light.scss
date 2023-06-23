@@ -34,3 +34,9 @@
 .light.navigation-topics .container.list-container {
     box-shadow: 0 8px 60px 0 rgba(2, 2, 2, 0.21),0 12px 90px 0 rgba(133,255,103,.1) !important;
 }
+
+@media (prefers-color-scheme: light) {
+    .list-controls .combo-box .combo-box-header {
+    background: var(--primary-low);
+    }
+}
