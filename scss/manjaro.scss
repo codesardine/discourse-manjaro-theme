@@ -113,7 +113,8 @@
   .topic-list-body .unseen-topic .badge-notification.new-topic:before,
   .badge-notification.unread-posts,
   .badge-notification.new-pms,
-  .d-header-icons .unread-notifications {
+  .d-header-icons .unread-notifications,
+  .chat-channel-unread-indicator {
       background-color: var(--notification-color) !important;
       font-weight: bold;
       border: none !important;
