@@ -8,7 +8,8 @@
       }
 
     button.icon:hover > svg,
-    button.btn-icon:hover > svg {
+    button.btn-icon:hover > svg,
+    .icon.btn-flat > svg {
        color: white !important;          
     }
 
