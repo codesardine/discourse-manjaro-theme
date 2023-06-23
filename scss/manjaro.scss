@@ -289,3 +289,9 @@
   body.has-full-page-chat #main-outlet {
     padding: 0 !important;
   }
+
+  .chat-message .chat-message-content {
+    background: var(--primary-low);
+    padding: 4px 8px;
+    border-radius: 10px;
+  }
