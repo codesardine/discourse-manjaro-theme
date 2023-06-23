@@ -21,7 +21,8 @@
 
     .d-header {
         button.icon:hover,
-        button.btn-icon:hover {
+        button.btn-icon:hover,
+        .d-icon-chat:hover {
             border-radius: 5px;
             background-color: #00bfa5 !important;
           }

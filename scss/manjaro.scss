@@ -177,7 +177,7 @@
   
   button#create-topic {
       position: fixed;
-      z-index: 9999;
+      z-index: 99;
       background: #00bfa5;
       border-color: #00bfa5;
       box-shadow: rgba(99,99,99,.2) 0px 2px 8px 0px;
@@ -198,7 +198,8 @@
   
   .social-link .d-icon:hover,
   .d-header button.icon:hover,
-  .d-header button.btn-icon:hover {
+  .d-header button.btn-icon:hover,
+  .d-header .d-icon-chat:hover {
     transform: scale(1.2);
   }
   
@@ -279,4 +280,12 @@
 
   .sidebar-footer-wrapper .sidebar-footer-actions {
     display: flex;
+  }
+
+  body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
+    gap: 0 2em;
+  }
+
+  body.has-sidebar-page.has-full-page-chat #main-outlet {
+    padding: 0;
   }
