@@ -298,3 +298,7 @@
     padding: 4px 8px;
     border-radius: 10px;
   }
+
+  .chat-message-container.is-by-current-user .chat-message-content {
+    background: var(--tertiary-500);
+  }
