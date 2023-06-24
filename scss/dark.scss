@@ -1,48 +1,66 @@
 .dark {
-    .user-preferences .control-group.color-scheme {
-        .instructions, .dark-color-scheme {
-            display: none;
-        }
-      }
-    
-    .d-header {
-        .svg-icon {
-            background: transparent !important;        
-                color: #b0bec5 !important;
-        }
+  .user-preferences .control-group.color-scheme {
+    .instructions,
+    .dark-color-scheme {
+      display: none;
     }
+  }
 
-    .custom-footer-content {
-        background-image: url($footer-bg-dark);
+  .d-header {
+    .svg-icon {
+      background: transparent !important;
+      color: #b0bec5 !important;
     }
+  }
 
-    .custom-footer {
-        background: var(--primary-very-low);
-    }
+  .custom-footer-content {
+    background-image: url($footer-bg-dark);
+  }
 
-    .custom-footer .flexbox {
-        color: var(--primary-high);
-      }
+  .custom-footer {
+    background: var(--primary-very-low);
+  }
 
-    .search-banner {
-        background: linear-gradient(128deg, rgb(57, 191, 160) 70%, rgb(42, 171, 198) 100%);
-    }
+  .custom-footer .flexbox {
+    color: var(--primary-high);
+  }
 
-    button#create-topic {
-        color: #263238;
-    }
+  .search-banner {
+    background: linear-gradient(
+      128deg,
+      rgb(57, 191, 160) 70%,
+      rgb(42, 171, 198) 100%
+    );
+  }
 
-    .sidebar-footer-actions-keyboard-shortcuts .d-icon,
-    .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
+  button#create-topic {
+    color: #263238;
+  }
+
+  .sidebar-footer-actions-keyboard-shortcuts .d-icon,
+  .sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
     color: #b0bec5;
-    }
+  }
 
   .quote-button button:hover,
   .quote-button button:hover > svg {
     color: var(--primary) !important;
   }
+
+  .badge-notification:not(.new-reviewables):not(.new-topic),
+  .topic-list-body .unseen-topic .badge-notification.new-topic:before,
+  .badge-notification.unread-posts,
+  .badge-notification.new-pms,
+  .d-header-icons .unread-notifications,
+  .chat-channel-unread-indicator,
+  .user-menu.revamped .tabs-list .btn .badge-notification,
+  .topic-map .avatars span.post-count,
+  .badge-notification.clicks {
+    color: white;
+  }
 }
 
 .dark.navigation-topics #main-outlet .container.list-container {
-    box-shadow: 0 8px 40px 0 rgba(103,151,255,.1),0 12px 40px 0 rgba(133,255,103,.1) !important;
+  box-shadow: 0 8px 40px 0 rgba(103, 151, 255, 0.1),
+    0 12px 40px 0 rgba(133, 255, 103, 0.1) !important;
 }

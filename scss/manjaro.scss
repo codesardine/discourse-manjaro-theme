@@ -118,7 +118,8 @@
 .badge-notification.new-pms,
 .d-header-icons .unread-notifications,
 .chat-channel-unread-indicator,
-.user-menu.revamped .tabs-list .btn .badge-notification {
+.user-menu.revamped .tabs-list .btn .badge-notification,
+.topic-map .avatars span.post-count {
   background-color: var(--notification-color);
   font-weight: bold;
 }
@@ -132,7 +133,6 @@
 }
 
 .topic-map .avatars span.post-count {
-  background-color: var(--notification-color);
   opacity: 1 !important;
 }
 
