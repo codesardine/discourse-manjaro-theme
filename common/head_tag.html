@@ -1,7 +1,6 @@
  <script>
 function setTheme() {
-    let root = document.querySelector(':root')
-    let styles = getComputedStyle(root)
+    let styles = getComputedStyle(document.documentElement)
     let color = styles.getPropertyValue('--secondary')
     let dark = "#2d2d2d"
     let body = document.body
