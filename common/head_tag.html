@@ -1,7 +1,7 @@
  <script>
 function setTheme() {
     let styles = getComputedStyle(document.documentElement)
-    let color = styles.getPropertyValue('--secondary')
+    let color = styles.getPropertyValue('--secondary').trim()
     let dark = "#2d2d2d"
     let body = document.body
     if (dark == color) {
