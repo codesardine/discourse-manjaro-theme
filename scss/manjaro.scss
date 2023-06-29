@@ -320,3 +320,7 @@ body.has-full-page-chat #main-outlet {
 .chat-message-container.is-by-current-user .chat-message-content {
   background: var(--tertiary-500);
 }
+
+.navigation-topics .custom-search-banner-wrap {
+  display: none;
+}
