@@ -58,6 +58,15 @@
   .badge-notification.clicks {
     color: white;
   }
+
+  .custom-footer .footer-section-link-wrapper a,
+  .custom-footer .third-box .small-link {
+    color: var(--tertiary-hover);
+  }
+
+  .custom-footer .first-box .blurb {
+    color: var(--primary-high);
+  }
 }
 
 .dark.navigation-topics #main-outlet .container.list-container {
