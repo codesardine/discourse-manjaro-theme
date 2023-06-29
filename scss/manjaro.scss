@@ -115,13 +115,16 @@
 .badge-notification:not(.new-reviewables):not(.new-topic),
 .topic-list-body .unseen-topic .badge-notification.new-topic:before,
 .badge-notification.unread-posts,
-.badge-notification.new-pms,
 .d-header-icons .unread-notifications,
 .chat-channel-unread-indicator,
 .user-menu.revamped .tabs-list .btn .badge-notification,
 .topic-map .avatars span.post-count {
   background-color: var(--notification-color);
   font-weight: bold;
+}
+
+.badge-notification.new-pms {
+  background-color: var(--notification-color) !important;
 }
 
 .badge-notification.clicks {
