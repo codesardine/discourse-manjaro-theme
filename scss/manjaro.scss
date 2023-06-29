@@ -321,6 +321,12 @@ body.has-full-page-chat #main-outlet {
   background: var(--tertiary-500);
 }
 
-.navigation-topics .custom-search-banner-wrap {
-  display: none;
+.navigation-topics {
+  .custom-search-banner-wrap {
+    display: none;
+  }
+
+  .custom-search-banner {
+    margin-bottom: 1.5em;
+  }
 }
