@@ -225,11 +225,11 @@ button#create-topic {
   filter: drop-shadow(0.1rem 0.1rem 1px rgba(0, 0, 0, 0.5));
 }
 
-.sidebar-footer-actions-keyboard-shortcuts .d-icon {
+.sidebar-footer-actions .btn-icon {
   transition: all linear 0.15s;
 }
 
-.sidebar-footer-actions-keyboard-shortcuts .d-icon:hover {
+.sidebar-footer-actions .btn-icon:hover {
   transform: scale(1.2);
 }
 
